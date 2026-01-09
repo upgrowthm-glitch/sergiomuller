@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sérgio Miller Consultoria | Crescimento Previsível</title>
+    <meta name="description"
+        content="Transformamos receita imprevisível em um sistema de crescimento governável. Consultoria especializada em negócios digitais e SaaS.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container nav">
+            <a href="#" class="logo">SÉRGIO MILLER<span class="text-accent">.</span></a>
+            <nav class="nav-links">
+                <a href="#problema" class="nav-link">O Problema</a>
+                <a href="#arco" class="nav-link">Método ARCO®</a>
+                <a href="#passos" class="nav-link">Os 5 Passos</a>
+                <a href="#servicos" class="nav-link">Serviços</a>
+                <a href="#contato" class="btn btn-outline" style="font-size: 0.8rem; padding: 12px 24px;">Raio-X
+                    Diagnóstico</a>
+            </nav>
+        </div>
+    </header>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg-glow"></div>
+        <div class="container">
+            <div class="reveal">
+                <p class="text-accent"
+                    style="text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 20px; font-weight: 600;">
+                    Consultoria de Crescimento & Governança</p>
+                <h1 class="display-text">Você não contrata um serviço.<br>Você entra num sistema.</h1>
+                <p class="subtitle">
+                    Transformamos receita imprevisível, CAC elevado e funis travados em decisão clara, governança e
+                    previsibilidade. <br><br>
+                    <span style="color: #fff; font-weight: 500;">Nosso trabalho não é acelerar a execução. É evitar
+                        erros caros antes de escalar.</span>
+                </p>
+                <div style="display: flex; gap: 16px; flex-wrap: wrap;">
+                    <a href="#contato" class="btn btn-primary">Agendar Raio-X Diagnóstico</a>
+                    <a href="#arco" class="btn btn-outline">Conhecer o Sistema</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Credibility Strip -->
+    <div
+        style="border-top: 1px solid var(--glass-border); border-bottom: 1px solid var(--glass-border); padding: 30px 0; background: rgba(255,255,255,0.01);">
+        <div class="container"
+            style="display: flex; justify-content: center; gap: 40px; flex-wrap: wrap; text-align: center; color: var(--text-secondary); font-weight: 500; letter-spacing: 0.05em; font-size: 0.9rem;">
+            <div style="opacity: 0.7;">SAAS B2B/B2C</div>
+            <div style="opacity: 0.7;">HEALTHTECHS</div>
+            <div style="opacity: 0.7;">EDTECHS</div>
+            <div style="opacity: 0.7;">E-COMMERCE ESTRUTURADO</div>
+            <div style="opacity: 0.7;">CONSULTORIAS EM ESCALA</div>
+        </div>
+    </div>
+    <!-- Section: O Problema (Oportunidades) -->
+    <section id="problema" class="section">
+        <div class="container">
+            <div class="reveal">
+                <h2 class="h2">Onde o dinheiro está <span class="text-accent">vazando</span> hoje?</h2>
+                <p class="subtitle">Se você se identifica com esses sintomas, seu crescimento está sendo financiado por
+                    ineficiência.</p>
+            </div>
+            <div class="grid grid-3 top-margin-40">
+                <!-- Card 1 -->
+                <div class="glass-card reveal">
+                    <div class="card-icon">📉</div>
+                    <h3>Receita Imprevisível</h3>
+                    <p style="margin-top: 10px; color: var(--text-secondary); font-size: 0.9rem;">Vendas que dependem de
+                        picos, lançamentos e "campanhas da vez". Sem visibilidade de pipeline ou previsão real de
+                        faturamento.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="glass-card reveal" style="transition-delay: 0.1s;">
+                    <div class="card-icon">💸</div>
+                    <h3>CAC Descontrolado</h3>
+                    <p style="margin-top: 10px; color: var(--text-secondary); font-size: 0.9rem;">Crescimento sustentado
+                        apenas por mídia paga, com custo crescente e nenhuma estratégia clara de retenção ou LTV.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="glass-card reveal" style="transition-delay: 0.2s;">
+                    <div class="card-icon">🧊</div>
+                    <h3>Funis Travados</h3>
+                    <p style="margin-top: 10px; color: var(--text-secondary); font-size: 0.9rem;">Leads entram mas não
+                        avançam. Baixa conversão e decisões tomadas no "achismo" por falta de leitura de dados.</p>
+                </div>
+                <!-- Card 4 -->
+                <div class="glass-card reveal">
+                    <div class="card-icon">📢</div>
+                    <h3>Mídia Ineficiente</h3>
+                    <p style="margin-top: 10px; color: var(--text-secondary); font-size: 0.9rem;">Investimento sem
+                        critério de prioridade. Campanhas que geram volume, mas não geram receita nem clientes
+                        qualificados.</p>
+                </div>
+                <!-- Card 5 -->
+                <div class="glass-card reveal" style="transition-delay: 0.1s;">
+                    <div class="card-icon">🚪</div>
+                    <h3>Retenção Baixa</h3>
+                    <p style="margin-top: 10px; color: var(--text-secondary); font-size: 0.9rem;">O cliente compra uma
+                        vez e vai embora. Churn silencioso por falta de CRM estruturado e lifecycle definido.</p>
+                </div>
+                <!-- Card 6 -->
+                <div class="glass-card reveal" style="transition-delay: 0.2s;">
+                    <div class="card-icon">🧩</div>
+                    <h3>Desalinhamento</h3>
+                    <p style="margin-top: 10px; color: var(--text-secondary); font-size: 0.9rem;">Marketing promete o
+                        que produto não sustenta, vendas fecha o que operação não entrega. Ninguém sabe onde o problema
+                        começa.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section: Metodologia ARCO -->
+    <section id="arco" class="section">
+        <div class="container text-center">
+            <div class="reveal">
+                <p class="text-accent" style="text-transform: uppercase; font-weight: 600; letter-spacing: 2px;">Método
+                    Proprietário</p>
+                <h2 class="h2 display-text" style="font-size: 4rem;">CICLO ARCO®</h2>
+                <p class="subtitle" style="margin: 0 auto 40px; max-width: 700px;">
+                    Como transformamos estratégia em dinheiro — sem improviso, sem vaidade e sem achismo.
+                    <br>Fácil de entender, difícil de copiar.
+                </p>
+            </div>
+            <div class="arco-container reveal" style="margin-top: 60px;">
+                <!-- A -->
+                <div class="arco-box">
+                    <div class="arco-letter">A</div>
+                    <div class="arco-content">
+                        <h3>Ativar</h3>
+                        <p style="color: var(--text-secondary); font-size: 0.9rem;">Aquisição com segmentação real.</p>
+                    </div>
+                </div>
+                <!-- R -->
+                <div class="arco-box">
+                    <div class="arco-letter">R</div>
+                    <div class="arco-content">
+                        <h3>Reter</h3>
+                        <p style="color: var(--text-secondary); font-size: 0.9rem;">Jornadas que mantêm valor.</p>
+                    </div>
+                </div>
+                <!-- C -->
+                <div class="arco-box">
+                    <div class="arco-letter">C</div>
+                    <div class="arco-content">
+                        <h3>Crescer</h3>
+                        <p style="color: var(--text-secondary); font-size: 0.9rem;">Upsell, cross-sell e LTV.</p>
+                    </div>
+                </div>
+                <!-- O -->
+                <div class="arco-box">
+                    <div class="arco-letter">O</div>
+                    <div class="arco-content">
+                        <h3>Orquestrar</h3>
+                        <p style="color: var(--text-secondary); font-size: 0.9rem;">Liderança, operação e tecnologia
+                            alinhadas.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="reveal"
+                style="margin-top: 60px; display: flex; justify-content: center; gap: 24px; flex-wrap: wrap;">
+                <div
+                    style="background: rgba(255,255,255,0.05); padding: 12px 30px; border-radius: 100px; font-size: 0.9rem; border: 1px solid var(--glass-border); display:flex; align-items:center; gap:8px;">
+                    ✅ <span>Explica o Valor</span></div>
+                <div
+                    style="background: rgba(255,255,255,0.05); padding: 12px 30px; border-radius: 100px; font-size: 0.9rem; border: 1px solid var(--glass-border); display:flex; align-items:center; gap:8px;">
+                    ✅ <span>Estrutura a Execução</span></div>
+                <div
+                    style="background: rgba(255,255,255,0.05); padding: 12px 30px; border-radius: 100px; font-size: 0.9rem; border: 1px solid var(--glass-border); display:flex; align-items:center; gap:8px;">
+                    ✅ <span>Garante Governança</span></div>
+            </div>
+        </div>
+    </section>
+    <!-- Section: Metodologia 5 Passos (Timeline) -->
+    <section id="passos" class="section"
+        style="background:linear-gradient(to bottom, transparent, rgba(68, 53, 91, 0.15))">
+        <div class="container">
+            <div class="grid grid-2">
+                <div class="reveal">
+                    <p class="text-accent" style="text-transform: uppercase; font-weight: 600;">Do Contrato à
+                        Recorrência</p>
+                    <h2 class="h2">Os 5 Passos do Sistema</h2>
+                    <p class="subtitle">Sem clareza, não existe execução. Existe apenas barulho. Veja como organizamos o
+                        caos em processo.</p>
+                    <div
+                        style="background: rgba(43, 194, 139, 0.05); border-left: 4px solid var(--accent-secondary); padding: 24px; border-radius: 0 10px 10px 0; margin-top: 30px;">
+                        <p style="color: #fff; font-style: italic; font-size: 1.1rem; line-height: 1.6;">"Você não
+                            contrata um serviço. Você entra num sistema com começo, meio e continuidade."</p>
+                    </div>
+                </div>
+                <div class="timeline reveal">
+                    <!-- Step 1 -->
+                    <div class="step-item">
+                        <span class="step-number">PASSO 01</span>
+                        <h3>Onboarding e Alinhamento</h3>
+                        <p style="color: var(--text-secondary);">Leitura completa do negócio. Definição do objetivo
+                            central e métrica-mãe. Identificação do que <strong>NÃO</strong> deve ser feito.</p>
+                    </div>
+                    <!-- Step 2 -->
+                    <div class="step-item">
+                        <span class="step-number">PASSO 02</span>
+                        <h3>Diagnóstico e Direção</h3>
+                        <p style="color: var(--text-secondary);">Leitura do funil real. Priorização estratégica baseada
+                            em dados: "Dado o negócio real, onde cada ação faz sentido?"</p>
+                    </div>
+                    <!-- Step 3 -->
+                    <div class="step-item">
+                        <span class="step-number">PASSO 03</span>
+                        <h3>Plano de Implementação</h3>
+                        <p style="color: var(--text-secondary);">Transformar direção em arquitetura. Setup técnico,
+                            definição de KPIs e criação do roadmap de execução sem improviso.</p>
+                    </div>
+                    <!-- Step 4 -->
+                    <div class="step-item">
+                        <span class="step-number">PASSO 04</span>
+                        <h3>Execução e Entrega</h3>
+                        <p style="color: var(--text-secondary);">Execução em sprints. Otimização por comportamento, não
+                            vaidade. Escala apenas do que prova resultado.</p>
+                    </div>
+                    <!-- Step 5 -->
+                    <div class="step-item">
+                        <span class="step-number">PASSO 05</span>
+                        <h3>Recorrência e Performance</h3>
+                        <p style="color: var(--text-secondary);">Rituais de governança e otimização contínua. Aqui a
+                            empresa deixa de "rodar campanhas" e passa a operar crescimento.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section: Quem Ajudamos (ICP) -->
+    <section class="section">
+        <div class="container">
+            <div class="reveal text-center" style="margin-bottom: 60px;">
+                <h2 class="h2">Posicionamento de Mercado</h2>
+                <p class="subtitle" style="margin: 0 auto;">Para quem é — e para quem NÃO é — o nosso sistema.</p>
+            </div>
+            <div class="grid grid-2">
+                <div class="glass-card reveal"
+                    style="background: rgba(43, 194, 139, 0.05); border-color: rgba(43, 194, 139, 0.2);">
+                    <h3 style="color: var(--accent-secondary); margin-bottom: 24px;">✅ Quem Ajudamos</h3>
+                    <ul style="display: grid; gap: 16px;">
+                        <li style="display: flex; gap: 12px; align-items: flex-start;"><span
+                                style="font-size: 1.2rem;">🚀</span> <span><strong>SaaS B2B/B2C:</strong> Receita
+                                recorrente, onboarding estruturado.</span></li>
+                        <li style="display: flex; gap: 12px; align-items: flex-start;"><span
+                                style="font-size: 1.2rem;">🏥</span> <span><strong>Healthtechs:</strong> Clínicas
+                                digitais, telemedicina, scale-up.</span></li>
+                        <li style="display: flex; gap: 12px; align-items: flex-start;"><span
+                                style="font-size: 1.2rem;">🎓</span> <span><strong>Edtechs:</strong> Ensino por
+                                assinatura, LTV longo (não infoproduto solto).</span></li>
+                        <li style="display: flex; gap: 12px; align-items: flex-start;"><span
+                                style="font-size: 1.2rem;">🛒</span> <span><strong>E-commerce Estruturado:</strong>
+                                Marcas DTC com operação madura e recompra.</span></li>
+                        <li style="display: flex; gap: 12px; align-items: flex-start;"><span
+                                style="font-size: 1.2rem;">💼</span> <span><strong>Consultorias:</strong> Serviços B2B
+                                buscando produtização e escala.</span></li>
+                    </ul>
+                </div>
+                <div class="glass-card reveal"
+                    style="background: rgba(255, 50, 50, 0.02); border-color: rgba(255, 50, 50, 0.1);">
+                    <h3 style="color: #ff6b6b; margin-bottom: 24px;">❌ Quem Não Ajudamos</h3>
+                    <ul style="display: grid; gap: 16px;">
+                        <li style="display: flex; gap: 12px; align-items: flex-start;"><span
+                                style="font-size: 1.2rem;">🚫</span> <span>Negócios locais sem ambição de escala.</span>
+                        </li>
+                        <li style="display: flex; gap: 12px; align-items: flex-start;"><span
+                                style="font-size: 1.2rem;">🚫</span> <span>Quem busca apenas "presença em redes
+                                sociais".</span></li>
+                        <li style="display: flex; gap: 12px; align-items: flex-start;"><span
+                                style="font-size: 1.2rem;">🚫</span> <span>Quem trata marketing como custo
+                                obrigatório.</span></li>
+                        <li style="display: flex; gap: 12px; align-items: flex-start;"><span
+                                style="font-size: 1.2rem;">🚫</span> <span>Infoprodutores buscando fórmula mágica ou
+                                hype.</span></li>
+                        <li style="display: flex; gap: 12px; align-items: flex-start;"><span
+                                style="font-size: 1.2rem;">🚫</span> <span>Quem quer terceirizar a decisão do próprio
+                                negócio.</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Section: Frentes de Serviço -->
+    <section id="servicos" class="section" style="background-color: #050505;">
+        <div class="container">
+            <div class="reveal" style="margin-bottom: 60px;">
+                <h2 class="h2">Modelos de Serviço</h2>
+                <p class="subtitle">Não entregamos tarefas. Entregamos governança.</p>
+            </div>
+            <div class="reveal">
+                <!-- Servico 1 -->
+                <div class="service-item">
+                    <div class="service-head">
+                        <h3>Planejamento Estratégico</h3>
+                        <div class="service-arrow">▼</div>
+                    </div>
+                    <div class="service-body">
+                        <p class="text-accent" style="margin-bottom: 20px; font-weight: 600; letter-spacing: 0.05em;">
+                            DIREÇÃO • PRIORIDADE • CRESCIMENTO</p>
+                        <p>O planejamento tira a empresa da urgência e da improvisação. Conectamos dados, marketing,
+                            produto e operação para transformar intenção em execução viável. Planejamento bom encurta
+                            caminho porque corta o que não deveria estar sendo feito.</p>
+                        <div class="grid grid-2" style="margin-top: 30px; gap: 30px;">
+                            <div>
+                                <h4 style="margin-bottom: 16px; color: #fff;">O que entra:</h4>
+                                <ul style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.8;">
+                                    <li>• Diagnóstico profundo do negócio e funil</li>
+                                    <li>• Análise de CAC, LTV e Churn</li>
+                                    <li>• Mapeamento de jornada do cliente</li>
+                                    <li>• Matriz de Priorização (Impacto x Viabilidade)</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4 style="margin-bottom: 16px; color: #fff;">Resultado:</h4>
+                                <ul style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.8;">
+                                    <li>• Clareza de prioridades</li>
+                                    <li>• Redução de desperdício de verba</li>
+                                    <li>• Alinhamento total entre áreas</li>
+                                    <li>• Velocidade de decisão estratégica</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Servico 2 -->
+                <div class="service-item">
+                    <div class="service-head">
+                        <h3>CRM & Lifecycle</h3>
+                        <div class="service-arrow">▼</div>
+                    </div>
+                    <div class="service-body">
+                        <p class="text-accent" style="margin-bottom: 20px; font-weight: 600; letter-spacing: 0.05em;">
+                            LIFECYCLE • RETENÇÃO • RECEITA</p>
+                        <p>CRM não é ferramenta, é sistema de decisão. Transformamos dados em automações que geram
+                            ativação, retenção e conversão. O CRM deixa de ser agenda de vendedor para virar sistema de
+                            previsão de receita.</p>
+                        <div class="grid grid-2" style="margin-top: 30px; gap: 30px;">
+                            <div>
+                                <h4 style="margin-bottom: 16px; color: #fff;">O que entra:</h4>
+                                <ul style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.8;">
+                                    <li>• Arquitetura de jornadas automatizadas</li>
+                                    <li>• Integração (HubSpot, RD, Salesforce)</li>
+                                    <li>• Nutrição e qualificação de leads</li>
+                                    <li>• Orquestração (Email, WhatsApp, SMS)</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4 style="margin-bottom: 16px; color: #fff;">Resultado:</h4>
+                                <ul style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.8;">
+                                    <li>• Aumento de LTV e Receita Recorrente</li>
+                                    <li>• Redução de CAC via automação</li>
+                                    <li>• Time comercial com oportunidades reais (SQLs)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Servico 3 -->
+                <div class="service-item">
+                    <div class="service-head">
+                        <h3>Marketing de Performance</h3>
+                        <div class="service-arrow">▼</div>
+                    </div>
+                    <div class="service-body">
+                        <p class="text-accent" style="margin-bottom: 20px; font-weight: 600; letter-spacing: 0.05em;">
+                            EXECUÇÃO COM DIREÇÃO</p>
+                        <p>Transformamos criatividade em performance. Cada canal cumpre uma função no funil e cada ação
+                            está conectada à meta de negócio. Não fazemos "social por vaidade".</p>
+                        <div class="grid grid-2" style="margin-top: 30px; gap: 30px;">
+                            <div>
+                                <h4 style="margin-bottom: 16px; color: #fff;">Canais:</h4>
+                                <ul style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.8;">
+                                    <li>• Mídia Paga (Google, Meta, LinkedIn)</li>
+                                    <li>• Mensageria e Conversão</li>
+                                    <li>• Landing Pages de Alta Conversão</li>
+                                    <li>• Conteúdo estratégico para funil</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4 style="margin-bottom: 16px; color: #fff;">Lógica:</h4>
+                                <p style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.6;">Criativo
+                                    gera entrada. Dados garantem conversão. Testes orientados a hipótese, não volume.
+                                    Nada é publicado sem objetivo claro.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Servico 4 -->
+                <div class="service-item">
+                    <div class="service-head">
+                        <h3>Gestão Comercial (Inside Sales & SDR)</h3>
+                        <div class="service-arrow">▼</div>
+                    </div>
+                    <div class="service-body">
+                        <p class="text-accent" style="margin-bottom: 20px; font-weight: 600; letter-spacing: 0.05em;">
+                            ESTRUTURAÇÃO • OPERAÇÃO • GOVERNANÇA</p>
+                        <p>Atuamos como braço operacional para estruturar e liderar times de pré-vendas e vendas
+                            internas. Criamos previsibilidade de receita e qualidade de pipeline, integrando MKT e
+                            Vendas.</p>
+                        <div class="grid grid-2" style="margin-top: 30px; gap: 30px;">
+                            <div>
+                                <h4 style="margin-bottom: 16px; color: #fff;">Escopo:</h4>
+                                <ul style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.8;">
+                                    <li>• Estruturação de times SDR/Inside Sales</li>
+                                    <li>• Definição de Playbooks e Scripts</li>
+                                    <li>• Gestão de rituais e pipelines</li>
+                                    <li>• Otimização de taxas de conversão</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4 style="margin-bottom: 16px; color: #fff;">Para quem:</h4>
+                                <p style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.6;">Empresas
+                                    que precisam transformar vendas artesanais em uma máquina previsível e governável,
+                                    sem depender de "heróis".</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CTA Final -->
+    <section id="contato" class="section text-center">
+        <div class="container">
+            <div class="reveal">
+                <p class="text-accent"
+                    style="text-transform: uppercase; font-weight: 600; margin-bottom: 20px; letter-spacing: 2px;">
+                    Passar da fase de testar tudo</p>
+                <h2 class="display-text" style="font-size: 3.5rem;">O crescimento travou?</h2>
+                <p class="subtitle" style="margin: 0 auto 40px; color: #bbb;">
+                    Se o seu negócio já passou da fase de testar tudo e entrou na fase de parar de errar caro, essa
+                    conversa faz sentido.
+                    <br><br>
+                    <strong style="color: #fff;">Atenção:</strong> Não é briefing. É exposição de fragilidade
+                    operacional e custo oculto.
+                </p>
+                <a href="#" class="btn btn-primary">Agendar Raio-X Diagnóstico</a>
+                <p style="margin-top: 24px; font-size: 0.85rem; color: var(--text-secondary); opacity: 0.5;">*Sem
+                    promessa mágica. Apenas decisão baseada em números.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content text-secondary">
+            <div>
+                <h4 style="color: #fff; margin-bottom: 24px; letter-spacing: 1px;">SÉRGIO MILLER</h4>
+                <p style="max-width: 300px; font-size: 0.9rem;">Consultoria especializada em transformar esforço em
+                    sistema previsível de receita.</p>
+            </div>
+            <div>
+                <h4 style="color: #fff; margin-bottom: 24px; letter-spacing: 1px;">Contato</h4>
+                <p style="font-size: 0.9rem; margin-bottom: 10px;">comercial@sergiomiller.com.br</p>
+                <p style="font-size: 0.9rem;">São Paulo, SP</p>
+            </div>
+            <div>
+                <h4 style="color: #fff; margin-bottom: 24px; letter-spacing: 1px;">Navegação</h4>
+                <p style="margin-bottom: 10px;"><a href="#arco" style="font-size: 0.9rem;">Método ARCO</a></p>
+                <p style="margin-bottom: 10px;"><a href="#passos" style="font-size: 0.9rem;">5 Passos</a></p>
+                <p><a href="#problema" style="font-size: 0.9rem;">Diagnóstico</a></p>
+            </div>
+        </div>
+        <div class="container"
+            style="border-top: 1px solid rgba(255,255,255,0.05); padding-top: 30px; font-size: 0.8rem; color: #555; display: flex; justify-content: space-between;">
+            <span>© 2026 Sérgio Miller & Laryssa Frenhan. Todos os direitos reservados.</span>
+            <span>Design System: Premium Black</span>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
